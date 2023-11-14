@@ -24,6 +24,24 @@ struct LongPressGestureBootcamp: View {
             HStack {
                 Text("CLICK HERE")
                     .foregroundStyle(.white)
+                    .padding()
+                    .background(Color.black)
+                    .cornerRadius(10)
+                    .onLongPressGesture(minimumDuration: 1.0, maximumDistance: 50) { (isPressing) in
+                        // start of press -> min duration
+                        if isPressing {
+                            
+                        }
+                        
+                    } perform: {
+                        // at the min duration
+                    }
+                
+                Text("RESET")
+                    .foregroundStyle(.white)
+                    .padding()
+                    .background(Color.black)
+                    .cornerRadius(10)
             }
             
         }
