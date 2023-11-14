@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct LongPressGestureBootcamp: View {
+    
+    @State var isComplete: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(isComplete ? "COMPLETED" : "NOT COMPLETE")
+            .padding()
+            .padding(.horizontal)
+            .background(isComplete ? Color.green : Color.gray)
+            .cornerRadius(10)
+            .onTapGesture {
+                isComplete.toggle()
+            }
     }
 }
 
