@@ -11,6 +11,7 @@
 		74D43EF02B03326C00013347 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D43EEF2B03326C00013347 /* ContentView.swift */; };
 		74D43EF22B03327000013347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D43EF12B03327000013347 /* Assets.xcassets */; };
 		74D43EF52B03327000013347 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D43EF42B03327000013347 /* Preview Assets.xcassets */; };
+		74D43EFC2B03362B00013347 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D43EFB2B03362B00013347 /* LongPressGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		74D43EEF2B03326C00013347 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74D43EF12B03327000013347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D43EF42B03327000013347 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74D43EFB2B03362B00013347 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				74D43EED2B03326C00013347 /* ImproveSwiftUIPracticeSTApp.swift */,
 				74D43EEF2B03326C00013347 /* ContentView.swift */,
+				74D43EFB2B03362B00013347 /* LongPressGestureBootcamp.swift */,
 				74D43EF12B03327000013347 /* Assets.xcassets */,
 				74D43EF32B03327000013347 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				74D43EF02B03326C00013347 /* ContentView.swift in Sources */,
 				74D43EEE2B03326C00013347 /* ImproveSwiftUIPracticeSTApp.swift in Sources */,
+				74D43EFC2B03362B00013347 /* LongPressGestureBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
